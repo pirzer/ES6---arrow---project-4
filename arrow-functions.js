@@ -127,7 +127,8 @@ console.log("First object:", obj1);
 console.log("Second object:", obj2);
 console.log("Third object:", obj3);
 
-
+let arr5 = [...arr1, { ...obj1 }, ...arr3, "x", "y", "z" ];
+console.log(arr5);
 
 /* ES6 5 */
 
@@ -183,8 +184,7 @@ console.log(students[0]); */
 
 
 /* ES6 6 */
-let arr5 = [...arr1, { ...obj1 }, ...arr3, "x", "y", "z" ];
-console.log(arr5);
+
 
 
 
